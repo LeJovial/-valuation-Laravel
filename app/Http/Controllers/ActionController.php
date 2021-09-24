@@ -13,7 +13,7 @@ class ActionController extends Controller
         $character->name = $request->name;
         $character->date = $request->date;
         $character->title = $request->title;
-        $character->illustrator = $request->illustrator;
+        $character->illustrator_id = $request->illustrator_id;
         $character->save();
         return redirect ('/Personnages');
     }
@@ -28,7 +28,7 @@ class ActionController extends Controller
         $character->name = $request->name;
         $character->date = $request->date;
         $character->title = $request->title;
-        $character->illustrator = $request->illustrator;
+        $character->illustrator_id = $request->illustrator_id;
         $character->save();
         return redirect('/Personnages');
     }

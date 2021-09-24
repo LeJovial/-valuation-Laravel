@@ -22,7 +22,7 @@
                     <td>{{ $character->name }}</td>
                     <td>{{ $character->date }}</td>
                     <td>{{ $character->title }}</td>
-                    <td>{{ $character->illustrator->name }}</td>
+                    <td>{{ $character->illustrator_id }}</td>
                     <td>
                         <a href="/modifier/{{ $character->id }}" class="btn btn-primary">Modifier</a>
                     </td>

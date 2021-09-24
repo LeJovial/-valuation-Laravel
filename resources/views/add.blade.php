@@ -16,7 +16,12 @@
         <input type="text" id="title" name="title" placeholder="Ex: Kid Paddle"><br><br>
 
         <label for="illustrator">Dessinateur :</label><br>
-        <input type="text" id="illustrator" name="illustrator" placeholder="Ex: Midam"><br><br>
+        <select name="illustrator_id">
+                @foreach ($illustrators as $illustrator)
+                    <option value="{{ $illustrator->id }}">{{ $illustrator->name }}</option>
+                @endforeach
+            </select>
+        <input id="illustrator_id" name="illustrator_id" placeholder="Ex: Midam"><br><br>
 
         <input type="submit" value="Ajouter">
 
