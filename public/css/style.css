@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 6vh;
+}
+main {
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-image: url('https://pbs.twimg.com/media/Ejzp5B2WkAEDiK2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    background-color: rgba(95, 95, 95, 0.719);
+}
+nav ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: none;
+}
+a:hover {
+    text-decoration: none;
+    background-color: rgba(231, 209, 252, 0.829);
+}
+.menu:hover {
+    background-color: rgba(231, 209, 252, 0.829);
+}
+.menu {
+    font-size: x-large;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+.info {
+    background-color: rgba(0, 0, 255, 0.644);
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+h3 {
+    text-align: center;
+    color: white;
+    width: 300px;
+}    
+.titre {
+    background-color: rgba(95, 95, 95, 0.719);
+}
+.puce {
+    color: brown;
+}
+.flex {
+    display: flex;
+}
+img {
+    height: 80%;
+}
+table {
+    background-color: rgba(95, 95, 95, 0.719);
+    border-collapse: collapse;
+    color: white;
+    align-items: center;
+    width: 50%;
+}
+#list {
+    display: flex;
+    justify-content: center;
+} 
+#backadd {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(95, 95, 95, 0.719);
+}
+label {
+    color: white;
+}
